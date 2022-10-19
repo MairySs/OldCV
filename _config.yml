@@ -25,7 +25,7 @@ github_username:  MairySs
 linkedin_username: mary-samanta
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: globalmtb
+# youtube_username: globalmtb
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
@@ -50,19 +50,19 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Mary and I'm a Software Engineer. I graduated from Computer Engineering & Informatics Department at University of Patras and I'm currently a master's student.
 
-  # I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+# I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
 content:
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
+      - layout: top-middle
         title: Citrix
         sub_title: Software Engineer
         caption: July 2022 - Present
         description: | # this will include new lines to allow paragraphs
             Member of the Citrix Cloud Identity team. 
-      - layout: left
+      - layout: top-middle
         title: Citrix
         caption: Mar. 2021 - Sep. 2021
         sub_title: Software Engineer Intern
@@ -81,8 +81,9 @@ content:
   - title: Publications
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Evaluating a game-based and a web-based user interface using skin conductivity signals and gamers and non gamers preferences.
-      2022 International Conference on Engineering and Emerging Technologies (ICEET)
+      Paper at the 2022 International Conference on Engineering and Emerging Technologies (ICEET). |
+      title: "Evaluating a game-based and a web-based user interface using skin conductivity signals and gamers and non gamers preferences".
+      
 
 # Footer
 footer_show_references: true
